@@ -1,0 +1,108 @@
+{
+  "company": {
+    "name": "Green Viet Environmental Solutions Co., Ltd.",
+    "shortName": "GVES Co., Ltd.",
+    "field": "Tư vấn môi trường, hồ sơ giấy phép môi trường, đánh giá tác động môi trường, quan trắc môi trường và giải pháp xử lý nước thải, khí thải",
+    "phone": "[Cập nhật số điện thoại chính thức]",
+    "email": "[Cập nhật email công ty]",
+    "address": "[Cập nhật địa chỉ văn phòng]",
+    "taxCode": "[Cập nhật mã số thuế]"
+  },
+  "solutions": [
+    {
+      "title": "Tư vấn pháp lý môi trường cho doanh nghiệp",
+      "summary": "Rà soát hiện trạng pháp lý, xác định nghĩa vụ môi trường và đề xuất lộ trình tuân thủ phù hợp cho nhà máy, cơ sở sản xuất và cụm công nghiệp.",
+      "items": ["Rà soát hồ sơ hiện có", "Xác định thủ tục cần thực hiện", "Tư vấn kế hoạch tuân thủ"]
+    },
+    {
+      "title": "Hồ sơ giấy phép môi trường",
+      "summary": "Hỗ trợ doanh nghiệp chuẩn bị, hoàn thiện và theo dõi hồ sơ giấy phép môi trường theo quy định hiện hành.",
+      "items": ["Giấy phép môi trường", "Hồ sơ vận hành thử nghiệm", "Báo cáo công tác bảo vệ môi trường"]
+    },
+    {
+      "title": "Đánh giá tác động môi trường",
+      "summary": "Tư vấn lập hồ sơ đánh giá tác động môi trường cho dự án đầu tư, mở rộng nhà máy hoặc thay đổi công suất sản xuất.",
+      "items": ["Khảo sát hiện trạng", "Xây dựng nội dung báo cáo", "Hỗ trợ giải trình hồ sơ"]
+    },
+    {
+      "title": "Quan trắc môi trường",
+      "summary": "Tư vấn kế hoạch quan trắc định kỳ, quan trắc tự động và quản lý dữ liệu môi trường phục vụ vận hành, báo cáo và kiểm tra.",
+      "items": ["Quan trắc nước thải", "Quan trắc khí thải", "Quan trắc môi trường lao động"]
+    },
+    {
+      "title": "Thiết kế hệ thống xử lý nước thải",
+      "summary": "Đề xuất công nghệ, thiết kế cơ sở và hỗ trợ triển khai hệ thống xử lý nước thải theo đặc thù ngành nghề và lưu lượng phát sinh.",
+      "items": ["Khảo sát nguồn thải", "Đề xuất công nghệ xử lý", "Hỗ trợ vận hành và cải tạo"]
+    },
+    {
+      "title": "Thiết kế hệ thống xử lý khí thải",
+      "summary": "Tư vấn giải pháp thu gom, xử lý khí thải và kiểm soát phát thải cho nhà máy, xưởng sản xuất và dây chuyền công nghiệp.",
+      "items": ["Đánh giá nguồn phát thải", "Lựa chọn công nghệ xử lý", "Tư vấn kiểm soát vận hành"]
+    }
+  ],
+  "productCategories": [
+    {
+      "title": "Thiết bị quan trắc nước thải",
+      "note": "Danh mục gồm thiết bị đo pH, COD, TSS, amoni, lưu lượng, bộ lấy mẫu tự động và tủ truyền dữ liệu. [Cập nhật hãng, model và thông số kỹ thuật]"
+    },
+    {
+      "title": "Thiết bị quan trắc khí thải",
+      "note": "Danh mục gồm thiết bị đo SO2, NOx, CO, O2, bụi, hệ lấy mẫu, hệ xử lý mẫu và phụ kiện CEMS. [Cập nhật hãng, model và cấu hình thực tế]"
+    },
+    {
+      "title": "Data logger và phần mềm giám sát",
+      "note": "Giải pháp ghi nhận, lưu trữ, cảnh báo và truyền dữ liệu quan trắc phục vụ giám sát vận hành. [Cập nhật ảnh giao diện phần mềm]"
+    },
+    {
+      "title": "Vật tư, phụ kiện và dịch vụ bảo trì",
+      "note": "Cung cấp vật tư tiêu hao, cảm biến, bơm, ống dẫn mẫu, phụ kiện thay thế và dịch vụ kiểm tra định kỳ. [Cập nhật danh sách vật tư]"
+    }
+  ],
+  "documentServices": [
+    "Giấy phép môi trường",
+    "Đánh giá tác động môi trường (ĐTM)",
+    "Đăng ký môi trường",
+    "Báo cáo công tác bảo vệ môi trường",
+    "Hồ sơ vận hành thử nghiệm công trình xử lý chất thải",
+    "Kế hoạch quan trắc môi trường định kỳ"
+  ],
+  "articles": [
+    {
+      "title": "Doanh nghiệp cần chuẩn bị gì trước khi xin giấy phép môi trường?",
+      "desc": "Tổng hợp các nhóm thông tin cần rà soát: ngành nghề, công suất, nguồn thải, công trình xử lý và hồ sơ pháp lý hiện có."
+    },
+    {
+      "title": "Khi nào nhà máy cần thực hiện đánh giá tác động môi trường?",
+      "desc": "Giới thiệu các trường hợp thường gặp khi đầu tư dự án mới, mở rộng công suất hoặc thay đổi công nghệ sản xuất."
+    },
+    {
+      "title": "Những lưu ý khi lập kế hoạch quan trắc môi trường định kỳ",
+      "desc": "Nêu các điểm cần kiểm tra về thông số quan trắc, tần suất, vị trí lấy mẫu và cách lưu trữ kết quả phục vụ báo cáo."
+    },
+    {
+      "title": "Dấu hiệu hệ thống xử lý nước thải cần được rà soát lại",
+      "desc": "Gợi ý các tình huống doanh nghiệp nên đánh giá lại công nghệ xử lý, tải lượng đầu vào, hóa chất và quy trình vận hành."
+    }
+  ],
+  "projects": [
+    {
+      "title": "[Cập nhật tên công trình đã thực hiện]",
+      "scope": "Mô tả hạng mục: tư vấn hồ sơ môi trường, quan trắc, thiết kế hệ thống xử lý hoặc cung cấp thiết bị. [Cập nhật địa điểm, năm thực hiện và phạm vi công việc]"
+    },
+    {
+      "title": "[Cập nhật dự án nhà máy hoặc cụm công nghiệp]",
+      "scope": "Mô tả quy mô dự án, nguồn thải chính, yêu cầu pháp lý và kết quả bàn giao. [Cập nhật thông tin được phép công bố]"
+    },
+    {
+      "title": "[Cập nhật dự án quan trắc hoặc xử lý môi trường]",
+      "scope": "Mô tả giải pháp kỹ thuật, thiết bị chính và trạng thái nghiệm thu. [Cập nhật hình ảnh thực tế nếu có]"
+    }
+  ],
+  "implementationSteps": [
+    "Tiếp nhận thông tin doanh nghiệp, loại hình sản xuất và nhu cầu môi trường.",
+    "Khảo sát hiện trạng hồ sơ, nguồn thải, công trình xử lý và yêu cầu quản lý.",
+    "Đề xuất phạm vi công việc, giải pháp kỹ thuật, hồ sơ cần lập và kế hoạch thực hiện.",
+    "Triển khai hồ sơ, quan trắc, thiết kế hoặc cung cấp thiết bị theo phạm vi đã thống nhất.",
+    "Bàn giao kết quả, hướng dẫn lưu trữ hồ sơ và hỗ trợ doanh nghiệp trong quá trình vận hành."
+  ]
+}
