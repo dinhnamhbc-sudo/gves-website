@@ -8,4 +8,7 @@ export const {
   articles,
   projects,
   implementationSteps,
+  capabilities,
+  leaders,
+  commitments,
 } = content;

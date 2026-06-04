@@ -1,80 +1,101 @@
 import SectionTitle from "../components/SectionTitle.jsx";
-import { company, productCategories, projects, solutions } from "../data/siteData.js";
+import { capabilities, commitments, company, solutions } from "../data/siteData.js";
 
 export default function Home({ onNavigate }) {
   return (
     <>
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">Environmental consulting & engineering</p>
-          <h1>{company.name}</h1>
+          <p className="eyebrow">{company.name}</p>
+          <h1>Company Profile</h1>
           <p>
-            {company.field}. GVES Co., Ltd. hỗ trợ doanh nghiệp kiểm soát rủi ro pháp lý môi trường,
-            hoàn thiện hồ sơ và triển khai giải pháp kỹ thuật phù hợp với hoạt động sản xuất.
+            Hồ sơ năng lực được xây dựng theo định hướng {company.tagline.toLowerCase()},
+            tập trung vào các mảng tư vấn đầu tư, thiết kế, môi trường, xây dựng và đấu thầu.
           </p>
           <div className="hero-actions">
             <button className="button primary" type="button" onClick={() => onNavigate("solutions")}>
-              Xem giải pháp
+              Xem dịch vụ
             </button>
             <button className="button secondary" type="button" onClick={() => onNavigate("contact")}>
-              Gửi yêu cầu tư vấn
+              Liên hệ Á Đông
             </button>
           </div>
           <div className="hero-stats">
-            <div><strong>01</strong><span>Tư vấn môi trường</span></div>
-            <div><strong>02</strong><span>Hồ sơ pháp lý</span></div>
-            <div><strong>03</strong><span>Giải pháp kỹ thuật</span></div>
+            <div><strong>{company.founded}</strong><span>Ngày thành lập</span></div>
+            <div><strong>{company.capital}</strong><span>Vốn điều lệ</span></div>
+            <div><strong>{company.taxCode}</strong><span>Mã số thuế</span></div>
           </div>
         </div>
         <div className="hero-media">
-          <img src="/assets/environment-equipment-hero.png" alt="Hệ thống quan trắc và xử lý môi trường công nghiệp" />
-          <div className="media-note">
-            <strong>Giải pháp cho doanh nghiệp sản xuất</strong>
-            <span>Hỗ trợ hồ sơ môi trường, quan trắc, thiết kế hệ thống xử lý nước thải và khí thải.</span>
-          </div>
+          <img src="/assets/adong-cover.png" alt="Hồ sơ năng lực Á Đông" />
         </div>
       </section>
 
       <section className="trust-strip">
         <div className="trust-inner">
-          <span>Giấy phép môi trường</span>
-          <span>Đánh giá tác động môi trường</span>
-          <span>Quan trắc môi trường</span>
-          <span>Xử lý nước thải, khí thải</span>
+          <span>Tư vấn đầu tư</span>
+          <span>Tư vấn thiết kế</span>
+          <span>Tư vấn môi trường</span>
+          <span>Đầu tư xây dựng</span>
+          <span>Tư vấn đấu thầu</span>
         </div>
       </section>
 
+      <section className="section split-section">
+        <div>
+          <SectionTitle eyebrow="Thông tin công ty" title="Đơn vị tư vấn và triển khai dự án đa ngành">
+            Á Đông cung cấp hệ sinh thái dịch vụ tích hợp, đồng bộ và chuyên sâu cho nhà đầu tư, doanh nghiệp và đối tác.
+          </SectionTitle>
+          <div className="info-grid">
+            <div><span>Tên doanh nghiệp</span><strong>{company.name}</strong></div>
+            <div><span>Đại diện pháp luật</span><strong>{company.legalRepresentative}</strong></div>
+            <div><span>Lĩnh vực hoạt động</span><strong>{company.field}</strong></div>
+          </div>
+        </div>
+        <img className="profile-shot" src="/assets/adong-company-info.png" alt="Thông tin công ty Á Đông" />
+      </section>
+
       <section className="section">
-        <SectionTitle eyebrow="Giải pháp" title="Dịch vụ môi trường trọng tâm">
-          Các hạng mục được thiết kế cho doanh nghiệp cần tuân thủ pháp luật môi trường và vận hành hệ thống xử lý ổn định.
+        <SectionTitle eyebrow="Dịch vụ" title="Năm lĩnh vực trọng tâm">
+          Các mảng dịch vụ được tổ chức để hỗ trợ khách hàng từ giai đoạn ý tưởng, pháp lý, thiết kế đến triển khai và bàn giao.
         </SectionTitle>
         <div className="service-grid">
-          {solutions.slice(0, 3).map((item) => (
+          {solutions.map((item) => (
             <article className="service-card" key={item.title}>
               <p className="service-tag">Dịch vụ</p>
               <h3>{item.title}</h3>
               <p>{item.summary}</p>
               <ul className="service-points">
-                {item.items.map((point) => <li key={point}>{point}</li>)}
+                {item.items.slice(0, 4).map((point) => <li key={point}>{point}</li>)}
               </ul>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="section projects-preview">
-        <SectionTitle eyebrow="Năng lực" title="Hồ sơ, thiết bị và công trình">
-          Website đã sẵn cấu trúc để cập nhật danh mục thiết bị, dự án đã thực hiện và thông tin liên hệ chính thức.
+      <section className="section split-section alt">
+        <img className="profile-shot" src="/assets/adong-team.png" alt="Năng lực nhân sự chủ chốt Á Đông" />
+        <div>
+          <SectionTitle eyebrow="Năng lực" title="Đội ngũ đa ngành, phối hợp trọn gói">
+            Nhân sự chủ chốt có chuyên môn ở các lĩnh vực quản lý, đầu tư, thiết kế kỹ thuật, môi trường và đấu thầu.
+          </SectionTitle>
+          <div className="capability-grid">
+            {capabilities.map((item) => (
+              <article key={item.title}>
+                <h3>{item.title}</h3>
+                <p>{item.desc}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <SectionTitle eyebrow="Cam kết dịch vụ" title="Chuyên nghiệp, minh bạch và hiệu quả">
+          Á Đông cam kết mang đến dịch vụ có trách nhiệm, bảo mật thông tin và đồng hành cùng khách hàng trong quá trình hoàn thiện hồ sơ.
         </SectionTitle>
-        <div className="project-list">
-          <article className="project-item">
-            <h3>{productCategories[0].title}</h3>
-            <p>{productCategories[0].note}</p>
-          </article>
-          <article className="project-item">
-            <h3>{projects[0].title}</h3>
-            <p>{projects[0].scope}</p>
-          </article>
+        <div className="commitment-grid">
+          {commitments.map((item) => <div key={item}>{item}</div>)}
         </div>
       </section>
     </>

@@ -6,17 +6,15 @@ export default function Footer({ onNavigate }) {
       <div className="footer-inner">
         <div>
           <h2>{company.name}</h2>
-          <p>
-            Đơn vị tư vấn môi trường, hồ sơ pháp lý môi trường, quan trắc và giải pháp xử lý nước thải,
-            khí thải cho doanh nghiệp.
-          </p>
+          <p>{company.field}</p>
+          <p className="footer-tagline">{company.tagline}</p>
         </div>
         <div className="footer-links">
           <h3>Hạng mục</h3>
-          <button type="button" onClick={() => onNavigate("solutions")}>Giải pháp</button>
-          <button type="button" onClick={() => onNavigate("catalog")}>Danh mục</button>
-          <button type="button" onClick={() => onNavigate("documents")}>Hồ sơ</button>
-          <button type="button" onClick={() => onNavigate("projects")}>Công trình</button>
+          <button type="button" onClick={() => onNavigate("solutions")}>Dịch vụ</button>
+          <button type="button" onClick={() => onNavigate("documents")}>Hồ sơ pháp lý</button>
+          <button type="button" onClick={() => onNavigate("projects")}>Dự án</button>
+          <button type="button" onClick={() => onNavigate("implementation")}>Quy trình</button>
         </div>
         <div className="footer-contact">
           <h3>Liên hệ</h3>
@@ -24,7 +22,7 @@ export default function Footer({ onNavigate }) {
           <span>{company.email}</span>
           <span>{company.address}</span>
         </div>
-        <p className="copyright">© 2026 {company.shortName}. Environmental consulting and engineering.</p>
+        <p className="copyright">© 2026 {company.shortName}. Company profile website.</p>
       </div>
     </footer>
   );

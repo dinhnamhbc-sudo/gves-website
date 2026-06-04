@@ -28,7 +28,7 @@ export default function ContactForm() {
         <textarea
           name="message"
           rows="5"
-          placeholder="Ví dụ: giấy phép môi trường, ĐTM, quan trắc môi trường hoặc hệ thống xử lý nước thải"
+          placeholder="Ví dụ: tư vấn đầu tư, thiết kế, môi trường, xây dựng hoặc đấu thầu"
           maxLength="1000"
           required
         />

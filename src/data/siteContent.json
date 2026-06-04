@@ -1,108 +1,100 @@
 {
   "company": {
-    "name": "Green Viet Environmental Solutions Co., Ltd.",
-    "shortName": "GVES Co., Ltd.",
-    "field": "Tư vấn môi trường, hồ sơ giấy phép môi trường, đánh giá tác động môi trường, quan trắc môi trường và giải pháp xử lý nước thải, khí thải",
-    "phone": "[Cập nhật số điện thoại chính thức]",
-    "email": "[Cập nhật email công ty]",
-    "address": "[Cập nhật địa chỉ văn phòng]",
-    "taxCode": "[Cập nhật mã số thuế]"
+    "name": "Công ty Cổ phần Tập đoàn Á Đông",
+    "shortName": "Á Đông Group",
+    "tagline": "Kiến tạo giá trị - Đồng hành phát triển",
+    "field": "Tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, đầu tư xây dựng và tư vấn đấu thầu.",
+    "phone": "0918.034.896",
+    "email": "hungbienadong2000@gmail.com",
+    "address": "B52-53 đường số 6, KDC Tân An Huy, Xã Nhà Bè, Thành phố Hồ Chí Minh, Việt Nam",
+    "taxCode": "0315615046",
+    "founded": "08/04/2019",
+    "capital": "200 tỷ đồng",
+    "legalRepresentative": "Dương Đình Nam"
   },
   "solutions": [
     {
-      "title": "Tư vấn pháp lý môi trường cho doanh nghiệp",
-      "summary": "Rà soát hiện trạng pháp lý, xác định nghĩa vụ môi trường và đề xuất lộ trình tuân thủ phù hợp cho nhà máy, cơ sở sản xuất và cụm công nghiệp.",
-      "items": ["Rà soát hồ sơ hiện có", "Xác định thủ tục cần thực hiện", "Tư vấn kế hoạch tuân thủ"]
+      "title": "Tư vấn đầu tư",
+      "summary": "Đồng hành cùng nhà đầu tư từ ý tưởng ban đầu đến khi dự án đi vào triển khai thực tế.",
+      "items": ["Tư vấn ý tưởng và định hướng đầu tư", "Rà soát quy hoạch và pháp lý dự án", "Lập hồ sơ đề xuất dự án đầu tư", "Báo cáo nghiên cứu tiền khả thi và khả thi", "Tư vấn chủ trương đầu tư", "Hỗ trợ làm việc với cơ quan nhà nước"],
+      "image": "/assets/adong-investment.png"
     },
     {
-      "title": "Hồ sơ giấy phép môi trường",
-      "summary": "Hỗ trợ doanh nghiệp chuẩn bị, hoàn thiện và theo dõi hồ sơ giấy phép môi trường theo quy định hiện hành.",
-      "items": ["Giấy phép môi trường", "Hồ sơ vận hành thử nghiệm", "Báo cáo công tác bảo vệ môi trường"]
+      "title": "Tư vấn thiết kế",
+      "summary": "Tư vấn thiết kế cho công trình dân dụng, công nghiệp và hạ tầng kỹ thuật theo hướng sáng tạo, chuẩn kỹ thuật và phù hợp mục tiêu đầu tư.",
+      "items": ["Khảo sát hiện trạng và thu thập số liệu", "Lập phương án thiết kế sơ bộ", "Thiết kế cơ sở", "Thiết kế kỹ thuật", "Thiết kế bản vẽ thi công", "Lập tổng dự toán và dự toán", "Phối hợp hồ sơ PCCC, môi trường, quy hoạch"],
+      "image": "/assets/adong-design.png"
     },
     {
-      "title": "Đánh giá tác động môi trường",
-      "summary": "Tư vấn lập hồ sơ đánh giá tác động môi trường cho dự án đầu tư, mở rộng nhà máy hoặc thay đổi công suất sản xuất.",
-      "items": ["Khảo sát hiện trạng", "Xây dựng nội dung báo cáo", "Hỗ trợ giải trình hồ sơ"]
+      "title": "Tư vấn môi trường",
+      "summary": "Tư vấn pháp lý môi trường và giải pháp phát triển bền vững cho dự án, nhà máy và khu công nghiệp.",
+      "items": ["Đánh giá tác động môi trường (ĐTM)", "Giấy phép môi trường", "Quan trắc môi trường", "Tư vấn xử lý chất thải"],
+      "image": "/assets/adong-environment.png"
     },
     {
-      "title": "Quan trắc môi trường",
-      "summary": "Tư vấn kế hoạch quan trắc định kỳ, quan trắc tự động và quản lý dữ liệu môi trường phục vụ vận hành, báo cáo và kiểm tra.",
-      "items": ["Quan trắc nước thải", "Quan trắc khí thải", "Quan trắc môi trường lao động"]
+      "title": "Đầu tư xây dựng",
+      "summary": "Cung cấp giải pháp đầu tư, thi công và quản lý dự án xây dựng với trọng tâm chất lượng, tiến độ và hiệu quả đầu tư.",
+      "items": ["Đầu tư dự án", "Thi công xây dựng", "Quản lý dự án", "Bảo hành, bảo trì"],
+      "image": "/assets/adong-construction.png"
     },
     {
-      "title": "Thiết kế hệ thống xử lý nước thải",
-      "summary": "Đề xuất công nghệ, thiết kế cơ sở và hỗ trợ triển khai hệ thống xử lý nước thải theo đặc thù ngành nghề và lưu lượng phát sinh.",
-      "items": ["Khảo sát nguồn thải", "Đề xuất công nghệ xử lý", "Hỗ trợ vận hành và cải tạo"]
-    },
-    {
-      "title": "Thiết kế hệ thống xử lý khí thải",
-      "summary": "Tư vấn giải pháp thu gom, xử lý khí thải và kiểm soát phát thải cho nhà máy, xưởng sản xuất và dây chuyền công nghiệp.",
-      "items": ["Đánh giá nguồn phát thải", "Lựa chọn công nghệ xử lý", "Tư vấn kiểm soát vận hành"]
+      "title": "Tư vấn đấu thầu",
+      "summary": "Giải pháp tư vấn đấu thầu chuyên nghiệp, minh bạch, giúp nâng cao năng lực cạnh tranh.",
+      "items": ["Lập hồ sơ mời thầu", "Đánh giá hồ sơ dự thầu", "Tư vấn lựa chọn nhà thầu", "Quản lý hợp đồng"],
+      "image": "/assets/adong-bidding.png"
     }
+  ],
+  "capabilities": [
+    { "title": "Quản lý điều hành", "desc": "Ban lãnh đạo có kinh nghiệm quản lý, điều phối và phát triển doanh nghiệp." },
+    { "title": "Tư vấn đầu tư", "desc": "Đội ngũ am hiểu pháp lý, quy hoạch và hồ sơ đầu tư dự án." },
+    { "title": "Thiết kế kỹ thuật", "desc": "Nhân sự chuyên môn về kiến trúc, kết cấu, điện và hạ tầng." },
+    { "title": "Môi trường", "desc": "Chuyên viên tư vấn hồ sơ môi trường và giải pháp bền vững." },
+    { "title": "Đấu thầu - dự toán", "desc": "Phụ trách lập hồ sơ, bóc tách khối lượng và tư vấn đấu thầu." }
   ],
   "productCategories": [
-    {
-      "title": "Thiết bị quan trắc nước thải",
-      "note": "Danh mục gồm thiết bị đo pH, COD, TSS, amoni, lưu lượng, bộ lấy mẫu tự động và tủ truyền dữ liệu. [Cập nhật hãng, model và thông số kỹ thuật]"
-    },
-    {
-      "title": "Thiết bị quan trắc khí thải",
-      "note": "Danh mục gồm thiết bị đo SO2, NOx, CO, O2, bụi, hệ lấy mẫu, hệ xử lý mẫu và phụ kiện CEMS. [Cập nhật hãng, model và cấu hình thực tế]"
-    },
-    {
-      "title": "Data logger và phần mềm giám sát",
-      "note": "Giải pháp ghi nhận, lưu trữ, cảnh báo và truyền dữ liệu quan trắc phục vụ giám sát vận hành. [Cập nhật ảnh giao diện phần mềm]"
-    },
-    {
-      "title": "Vật tư, phụ kiện và dịch vụ bảo trì",
-      "note": "Cung cấp vật tư tiêu hao, cảm biến, bơm, ống dẫn mẫu, phụ kiện thay thế và dịch vụ kiểm tra định kỳ. [Cập nhật danh sách vật tư]"
-    }
+    { "title": "Dịch vụ đồng bộ", "note": "Hỗ trợ nhiều giai đoạn trong một dự án từ pháp lý, thiết kế, môi trường đến đấu thầu và xây dựng." },
+    { "title": "Am hiểu pháp lý", "note": "Kết hợp pháp lý đầu tư, xây dựng, môi trường và đấu thầu để giảm rủi ro triển khai." },
+    { "title": "Đội ngũ đa ngành", "note": "Kiến trúc, xây dựng, điện, trắc địa, dự toán và môi trường." },
+    { "title": "Kinh nghiệm thực tế", "note": "Tập trung vào giải pháp khả thi, phù hợp điều kiện triển khai." },
+    { "title": "Trách nhiệm đồng hành", "note": "Hỗ trợ khách hàng xuyên suốt quá trình thực hiện dự án." }
   ],
   "documentServices": [
-    "Giấy phép môi trường",
-    "Đánh giá tác động môi trường (ĐTM)",
-    "Đăng ký môi trường",
-    "Báo cáo công tác bảo vệ môi trường",
-    "Hồ sơ vận hành thử nghiệm công trình xử lý chất thải",
-    "Kế hoạch quan trắc môi trường định kỳ"
+    "Giấy chứng nhận đăng ký doanh nghiệp",
+    "Chứng chỉ năng lực hoạt động xây dựng",
+    "Chứng chỉ hành nghề của đội ngũ chủ chốt",
+    "Các giấy phép, chứng nhận liên quan khác"
   ],
   "articles": [
-    {
-      "title": "Doanh nghiệp cần chuẩn bị gì trước khi xin giấy phép môi trường?",
-      "desc": "Tổng hợp các nhóm thông tin cần rà soát: ngành nghề, công suất, nguồn thải, công trình xử lý và hồ sơ pháp lý hiện có."
-    },
-    {
-      "title": "Khi nào nhà máy cần thực hiện đánh giá tác động môi trường?",
-      "desc": "Giới thiệu các trường hợp thường gặp khi đầu tư dự án mới, mở rộng công suất hoặc thay đổi công nghệ sản xuất."
-    },
-    {
-      "title": "Những lưu ý khi lập kế hoạch quan trắc môi trường định kỳ",
-      "desc": "Nêu các điểm cần kiểm tra về thông số quan trắc, tần suất, vị trí lấy mẫu và cách lưu trữ kết quả phục vụ báo cáo."
-    },
-    {
-      "title": "Dấu hiệu hệ thống xử lý nước thải cần được rà soát lại",
-      "desc": "Gợi ý các tình huống doanh nghiệp nên đánh giá lại công nghệ xử lý, tải lượng đầu vào, hóa chất và quy trình vận hành."
-    }
+    { "title": "Tầm nhìn", "desc": "Trở thành tập đoàn tư vấn và triển khai dự án uy tín hàng đầu trong lĩnh vực đầu tư, thiết kế, môi trường, xây dựng và tư vấn đấu thầu tại Việt Nam." },
+    { "title": "Sứ mệnh", "desc": "Cung cấp các giải pháp tích hợp, thực tiễn và hiệu quả, góp phần mang lại giá trị bền vững cho nhà đầu tư, đối tác và cộng đồng." },
+    { "title": "Giá trị cốt lõi", "desc": "Chuyên môn, trách nhiệm, minh bạch, hiệu quả và đồng hành." }
   ],
   "projects": [
-    {
-      "title": "[Cập nhật tên công trình đã thực hiện]",
-      "scope": "Mô tả hạng mục: tư vấn hồ sơ môi trường, quan trắc, thiết kế hệ thống xử lý hoặc cung cấp thiết bị. [Cập nhật địa điểm, năm thực hiện và phạm vi công việc]"
-    },
-    {
-      "title": "[Cập nhật dự án nhà máy hoặc cụm công nghiệp]",
-      "scope": "Mô tả quy mô dự án, nguồn thải chính, yêu cầu pháp lý và kết quả bàn giao. [Cập nhật thông tin được phép công bố]"
-    },
-    {
-      "title": "[Cập nhật dự án quan trắc hoặc xử lý môi trường]",
-      "scope": "Mô tả giải pháp kỹ thuật, thiết bị chính và trạng thái nghiệm thu. [Cập nhật hình ảnh thực tế nếu có]"
-    }
+    { "title": "Dự án tiêu biểu tư vấn đầu tư", "scope": "Profile bố trí khu vực cập nhật tên dự án, địa điểm, lĩnh vực và phạm vi thực hiện cho các dự án tư vấn đầu tư." },
+    { "title": "Công trình tiêu biểu tư vấn thiết kế", "scope": "Khu vực thể hiện tên công trình, loại công trình, địa điểm và phạm vi thiết kế khi có thông tin được phép công bố." },
+    { "title": "Dự án tư vấn môi trường", "scope": "Các hạng mục ĐTM, giấy phép môi trường và quy mô dự án; nhiều dự án khác trên toàn quốc." },
+    { "title": "Gói thầu tư vấn đấu thầu", "scope": "Gói thầu xây lắp, gói thầu MEP và gói thầu tư vấn." }
   ],
   "implementationSteps": [
-    "Tiếp nhận thông tin doanh nghiệp, loại hình sản xuất và nhu cầu môi trường.",
-    "Khảo sát hiện trạng hồ sơ, nguồn thải, công trình xử lý và yêu cầu quản lý.",
-    "Đề xuất phạm vi công việc, giải pháp kỹ thuật, hồ sơ cần lập và kế hoạch thực hiện.",
-    "Triển khai hồ sơ, quan trắc, thiết kế hoặc cung cấp thiết bị theo phạm vi đã thống nhất.",
-    "Bàn giao kết quả, hướng dẫn lưu trữ hồ sơ và hỗ trợ doanh nghiệp trong quá trình vận hành."
+    "Tiếp nhận yêu cầu: xác định mục tiêu, phạm vi công việc.",
+    "Khảo sát, thu thập hồ sơ: đánh giá pháp lý, kỹ thuật, hiện trạng.",
+    "Phân tích và đề xuất giải pháp: xây dựng phương án, tiến độ, chi phí.",
+    "Thực hiện hồ sơ/dịch vụ: triển khai nội dung theo hợp đồng.",
+    "Làm việc với cơ quan/đối tác: giải trình, chỉnh sửa, hoàn thiện.",
+    "Bàn giao và hỗ trợ sau bàn giao: bàn giao hồ sơ, hỗ trợ cập nhật."
+  ],
+  "leaders": [
+    { "name": "Dương Hùng Biện", "role": "Chủ tịch HĐQT", "specialty": "Kiến trúc sư, Cử nhân Luật Kinh tế" },
+    { "name": "Dương Đình Nam", "role": "Tổng Giám đốc", "specialty": "Kỹ sư điện" },
+    { "name": "Dương Công Cường", "role": "Giám đốc", "specialty": "Kỹ sư trắc địa, bản đồ" },
+    { "name": "Dương Đoàn Kết", "role": "Giám đốc", "specialty": "Kiến trúc sư" }
+  ],
+  "commitments": [
+    "Thực hiện công việc đúng phạm vi, tiến độ và yêu cầu đã thống nhất",
+    "Tuân thủ quy định pháp luật, quy chuẩn và tiêu chuẩn áp dụng",
+    "Bảo mật thông tin hồ sơ, tài liệu và dữ liệu của khách hàng",
+    "Đề xuất giải pháp có tính khả thi, phù hợp thực tế triển khai",
+    "Đồng hành cùng khách hàng trong quá trình giải trình, hoàn thiện hồ sơ",
+    "Chịu trách nhiệm với chất lượng sản phẩm tư vấn, thiết kế, môi trường, đấu thầu và xây dựng"
   ]
 }

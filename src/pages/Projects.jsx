@@ -4,8 +4,8 @@ import { projects } from "../data/siteData.js";
 export default function Projects() {
   return (
     <section className="page-shell">
-      <SectionTitle eyebrow="Công trình" title="Công trình và dự án tiêu biểu" level={1}>
-        Khu vực này dùng để cập nhật các dự án đã thực hiện sau khi có thông tin được phép công bố.
+      <SectionTitle eyebrow="Công trình và dự án" title="Khu vực cập nhật dự án tiêu biểu" level={1}>
+        Một số trang trong profile là mẫu để điền tên dự án, địa điểm, lĩnh vực và phạm vi thực hiện. Website giữ đúng cấu trúc đó và tránh tự thêm dữ liệu chưa có trong PDF.
       </SectionTitle>
       <div className="project-list">
         {projects.map((project) => (
