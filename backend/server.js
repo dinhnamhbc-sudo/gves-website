@@ -20,7 +20,7 @@ app.use(express.json({ limit: "1mb" }));
 app.get("/api/health", (req, res) => {
   res.json({
     ok: true,
-    service: "gves-api",
+    service: "adong-group-api",
     database: "SQLite",
     types: [...allowedTypes.keys()],
   });

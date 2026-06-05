@@ -1,93 +1,179 @@
 {
+  "seo": {
+    "title": "Công ty Cổ phần Tập đoàn Á Đông | A Dong Group",
+    "description": "Á Đông Group cung cấp dịch vụ tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, đầu tư xây dựng và tư vấn đấu thầu, đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai dự án.",
+    "keywords": "Á Đông Group, A Dong Group, tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, giấy phép môi trường, đánh giá tác động môi trường, đầu tư xây dựng, tư vấn đấu thầu, quản lý dự án",
+    "ogTitle": "Công ty Cổ phần Tập đoàn Á Đông",
+    "ogDescription": "Hệ sinh thái dịch vụ tích hợp trong tư vấn đầu tư, thiết kế, môi trường, xây dựng và đấu thầu."
+  },
   "company": {
     "name": "Công ty Cổ phần Tập đoàn Á Đông",
+    "englishName": "A Dong Group Joint Stock Company",
+    "brandName": "A DONG GROUP",
     "shortName": "Á Đông Group",
+    "taglinePrimary": "Kiến tạo giá trị",
+    "taglineSecondary": "Đồng hành phát triển",
     "tagline": "Kiến tạo giá trị - Đồng hành phát triển",
+    "positioning": "Tập đoàn tư vấn và đầu tư đa lĩnh vực",
+    "heroText": "Công ty Cổ phần Tập đoàn Á Đông cung cấp hệ sinh thái dịch vụ tích hợp trong các lĩnh vực tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, đầu tư xây dựng và tư vấn đấu thầu, đồng hành cùng nhà đầu tư từ ý tưởng ban đầu đến triển khai và vận hành dự án.",
+    "aboutText": "Á Đông Group là đơn vị tư vấn và đầu tư đa lĩnh vực, cung cấp giải pháp tích hợp từ giai đoạn hình thành ý tưởng, tư vấn pháp lý, thiết kế kỹ thuật, môi trường, đấu thầu đến triển khai xây dựng và quản lý dự án. Với phương châm Kiến tạo giá trị - Đồng hành phát triển, Á Đông Group hướng đến việc mang lại giải pháp hiệu quả, tuân thủ pháp luật và phù hợp thực tiễn cho từng khách hàng.",
     "field": "Tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, đầu tư xây dựng và tư vấn đấu thầu.",
     "phone": "0918.034.896",
     "email": "hungbienadong2000@gmail.com",
     "address": "B52-53 đường số 6, KDC Tân An Huy, Xã Nhà Bè, Thành phố Hồ Chí Minh, Việt Nam",
+    "website": "Đang cập nhật",
     "taxCode": "0315615046",
-    "founded": "08/04/2019",
+    "founded": "2019",
+    "foundedDate": "08/04/2019",
     "capital": "200 tỷ đồng",
     "legalRepresentative": "Dương Đình Nam"
   },
-  "solutions": [
+  "navigation": [
+    { "id": "home", "label": "Trang chủ" },
+    { "id": "about", "label": "Giới thiệu" },
+    { "id": "fields", "label": "Lĩnh vực hoạt động" },
+    { "id": "projects", "label": "Dự án tiêu biểu" },
+    { "id": "capabilities", "label": "Năng lực" },
+    { "id": "subsidiaries", "label": "Công ty thành viên" },
+    { "id": "news", "label": "Tin tức" },
+    { "id": "contact", "label": "Liên hệ" }
+  ],
+  "heroSlides": [
     {
+      "title": "Công ty Cổ phần Tập đoàn Á Đông",
+      "subtitle": "A DONG GROUP",
+      "desc": "Hệ sinh thái dịch vụ tích hợp trong tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, đầu tư xây dựng và tư vấn đấu thầu.",
+      "image": "/assets/adong-cover.png"
+    },
+    {
+      "title": "Đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai",
+      "subtitle": "Integrated Project Consulting",
+      "desc": "Á Đông Group cung cấp giải pháp đồng bộ từ pháp lý đầu tư, thiết kế kỹ thuật, môi trường, đấu thầu đến triển khai xây dựng và quản lý dự án.",
+      "image": "/assets/adong-capabilities.png"
+    },
+    {
+      "title": "Giải pháp tích hợp cho dự án bền vững",
+      "subtitle": "Value Creation",
+      "desc": "Tối ưu hồ sơ, quy trình, chi phí và tiến độ trong quá trình chuẩn bị, thực hiện và vận hành dự án.",
+      "image": "/assets/adong-process.png"
+    }
+  ],
+  "businessFields": [
+    {
+      "id": "investment",
+      "icon": "01",
       "title": "Tư vấn đầu tư",
-      "summary": "Đồng hành cùng nhà đầu tư từ ý tưởng ban đầu đến khi dự án đi vào triển khai thực tế.",
-      "items": ["Tư vấn ý tưởng và định hướng đầu tư", "Rà soát quy hoạch và pháp lý dự án", "Lập hồ sơ đề xuất dự án đầu tư", "Báo cáo nghiên cứu tiền khả thi và khả thi", "Tư vấn chủ trương đầu tư", "Hỗ trợ làm việc với cơ quan nhà nước"],
+      "englishTitle": "Investment Consulting",
+      "summary": "Tư vấn ý tưởng đầu tư, định hướng đầu tư, rà soát quy hoạch, pháp lý dự án, lập hồ sơ và hỗ trợ thủ tục đầu tư.",
+      "items": ["Tư vấn ý tưởng và định hướng đầu tư", "Rà soát quy hoạch và pháp lý dự án", "Lập hồ sơ đề xuất dự án đầu tư", "Báo cáo nghiên cứu tiền khả thi và khả thi", "Hỗ trợ làm việc với cơ quan nhà nước"],
       "image": "/assets/adong-investment.png"
     },
     {
+      "id": "design",
+      "icon": "02",
       "title": "Tư vấn thiết kế",
-      "summary": "Tư vấn thiết kế cho công trình dân dụng, công nghiệp và hạ tầng kỹ thuật theo hướng sáng tạo, chuẩn kỹ thuật và phù hợp mục tiêu đầu tư.",
-      "items": ["Khảo sát hiện trạng và thu thập số liệu", "Lập phương án thiết kế sơ bộ", "Thiết kế cơ sở", "Thiết kế kỹ thuật", "Thiết kế bản vẽ thi công", "Lập tổng dự toán và dự toán", "Phối hợp hồ sơ PCCC, môi trường, quy hoạch"],
+      "englishTitle": "Design Consulting",
+      "summary": "Cung cấp dịch vụ tư vấn thiết kế cho công trình dân dụng, công nghiệp, hạ tầng kỹ thuật và môi trường.",
+      "items": ["Khảo sát hiện trạng", "Thiết kế cơ sở", "Thiết kế kỹ thuật", "Thiết kế bản vẽ thi công", "Lập dự toán", "Phối hợp hồ sơ PCCC, môi trường, quy hoạch"],
       "image": "/assets/adong-design.png"
     },
     {
+      "id": "environment",
+      "icon": "03",
       "title": "Tư vấn môi trường",
-      "summary": "Tư vấn pháp lý môi trường và giải pháp phát triển bền vững cho dự án, nhà máy và khu công nghiệp.",
-      "items": ["Đánh giá tác động môi trường (ĐTM)", "Giấy phép môi trường", "Quan trắc môi trường", "Tư vấn xử lý chất thải"],
+      "englishTitle": "Environmental Consulting",
+      "summary": "Tư vấn hồ sơ pháp lý môi trường, đánh giá tác động môi trường, giấy phép môi trường, quan trắc và giải pháp xử lý chất thải.",
+      "items": ["Đánh giá tác động môi trường", "Giấy phép môi trường", "Đăng ký môi trường", "Quan trắc môi trường", "Tư vấn xử lý nước thải, khí thải, chất thải rắn"],
       "image": "/assets/adong-environment.png"
     },
     {
+      "id": "construction",
+      "icon": "04",
       "title": "Đầu tư xây dựng",
-      "summary": "Cung cấp giải pháp đầu tư, thi công và quản lý dự án xây dựng với trọng tâm chất lượng, tiến độ và hiệu quả đầu tư.",
-      "items": ["Đầu tư dự án", "Thi công xây dựng", "Quản lý dự án", "Bảo hành, bảo trì"],
+      "englishTitle": "Construction Investment",
+      "summary": "Cung cấp giải pháp đầu tư, thi công xây dựng, quản lý dự án, bảo hành và bảo trì công trình.",
+      "items": ["Đầu tư dự án", "Thi công xây dựng", "Quản lý dự án", "Giám sát triển khai", "Bảo hành và bảo trì"],
       "image": "/assets/adong-construction.png"
     },
     {
+      "id": "bidding",
+      "icon": "05",
       "title": "Tư vấn đấu thầu",
-      "summary": "Giải pháp tư vấn đấu thầu chuyên nghiệp, minh bạch, giúp nâng cao năng lực cạnh tranh.",
-      "items": ["Lập hồ sơ mời thầu", "Đánh giá hồ sơ dự thầu", "Tư vấn lựa chọn nhà thầu", "Quản lý hợp đồng"],
+      "englishTitle": "Bidding Consulting",
+      "summary": "Tư vấn lập hồ sơ mời thầu, đánh giá hồ sơ dự thầu, lựa chọn nhà thầu và quản lý hợp đồng.",
+      "items": ["Lập hồ sơ mời thầu", "Đánh giá hồ sơ dự thầu", "Tư vấn lựa chọn nhà thầu", "Quản lý hợp đồng", "Hoàn thiện hồ sơ đấu thầu"],
       "image": "/assets/adong-bidding.png"
     }
   ],
-  "capabilities": [
-    { "title": "Quản lý điều hành", "desc": "Ban lãnh đạo có kinh nghiệm quản lý, điều phối và phát triển doanh nghiệp." },
-    { "title": "Tư vấn đầu tư", "desc": "Đội ngũ am hiểu pháp lý, quy hoạch và hồ sơ đầu tư dự án." },
-    { "title": "Thiết kế kỹ thuật", "desc": "Nhân sự chuyên môn về kiến trúc, kết cấu, điện và hạ tầng." },
-    { "title": "Môi trường", "desc": "Chuyên viên tư vấn hồ sơ môi trường và giải pháp bền vững." },
-    { "title": "Đấu thầu - dự toán", "desc": "Phụ trách lập hồ sơ, bóc tách khối lượng và tư vấn đấu thầu." }
-  ],
-  "productCategories": [
-    { "title": "Dịch vụ đồng bộ", "note": "Hỗ trợ nhiều giai đoạn trong một dự án từ pháp lý, thiết kế, môi trường đến đấu thầu và xây dựng." },
-    { "title": "Am hiểu pháp lý", "note": "Kết hợp pháp lý đầu tư, xây dựng, môi trường và đấu thầu để giảm rủi ro triển khai." },
-    { "title": "Đội ngũ đa ngành", "note": "Kiến trúc, xây dựng, điện, trắc địa, dự toán và môi trường." },
-    { "title": "Kinh nghiệm thực tế", "note": "Tập trung vào giải pháp khả thi, phù hợp điều kiện triển khai." },
-    { "title": "Trách nhiệm đồng hành", "note": "Hỗ trợ khách hàng xuyên suốt quá trình thực hiện dự án." }
-  ],
-  "documentServices": [
-    "Giấy chứng nhận đăng ký doanh nghiệp",
-    "Chứng chỉ năng lực hoạt động xây dựng",
-    "Chứng chỉ hành nghề của đội ngũ chủ chốt",
-    "Các giấy phép, chứng nhận liên quan khác"
-  ],
-  "articles": [
-    { "title": "Tầm nhìn", "desc": "Trở thành tập đoàn tư vấn và triển khai dự án uy tín hàng đầu trong lĩnh vực đầu tư, thiết kế, môi trường, xây dựng và tư vấn đấu thầu tại Việt Nam." },
-    { "title": "Sứ mệnh", "desc": "Cung cấp các giải pháp tích hợp, thực tiễn và hiệu quả, góp phần mang lại giá trị bền vững cho nhà đầu tư, đối tác và cộng đồng." },
-    { "title": "Giá trị cốt lõi", "desc": "Chuyên môn, trách nhiệm, minh bạch, hiệu quả và đồng hành." }
-  ],
   "projects": [
-    { "title": "Dự án tiêu biểu tư vấn đầu tư", "scope": "Profile bố trí khu vực cập nhật tên dự án, địa điểm, lĩnh vực và phạm vi thực hiện cho các dự án tư vấn đầu tư." },
-    { "title": "Công trình tiêu biểu tư vấn thiết kế", "scope": "Khu vực thể hiện tên công trình, loại công trình, địa điểm và phạm vi thiết kế khi có thông tin được phép công bố." },
-    { "title": "Dự án tư vấn môi trường", "scope": "Các hạng mục ĐTM, giấy phép môi trường và quy mô dự án; nhiều dự án khác trên toàn quốc." },
-    { "title": "Gói thầu tư vấn đấu thầu", "scope": "Gói thầu xây lắp, gói thầu MEP và gói thầu tư vấn." }
+    { "category": "Tư vấn đầu tư", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-investment.png" },
+    { "category": "Tư vấn thiết kế", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-design.png" },
+    { "category": "Tư vấn môi trường", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-environment.png" },
+    { "category": "Đầu tư xây dựng", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-construction.png" },
+    { "category": "Tư vấn đấu thầu", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-bidding.png" },
+    { "category": "Tư vấn môi trường", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-legal.png" }
   ],
-  "implementationSteps": [
-    "Tiếp nhận yêu cầu: xác định mục tiêu, phạm vi công việc.",
-    "Khảo sát, thu thập hồ sơ: đánh giá pháp lý, kỹ thuật, hiện trạng.",
-    "Phân tích và đề xuất giải pháp: xây dựng phương án, tiến độ, chi phí.",
-    "Thực hiện hồ sơ/dịch vụ: triển khai nội dung theo hợp đồng.",
-    "Làm việc với cơ quan/đối tác: giải trình, chỉnh sửa, hoàn thiện.",
-    "Bàn giao và hỗ trợ sau bàn giao: bàn giao hồ sơ, hỗ trợ cập nhật."
+  "stats": [
+    { "value": "5", "label": "Lĩnh vực hoạt động" },
+    { "value": "2019", "label": "Năm thành lập" },
+    { "value": "200 tỷ đồng", "label": "Vốn điều lệ" },
+    { "value": "Đang cập nhật", "label": "Dự án/hồ sơ đã triển khai" }
+  ],
+  "coreValues": [
+    { "icon": "CN", "title": "Chuyên nghiệp", "desc": "Tổ chức công việc rõ phạm vi, đúng chuẩn hồ sơ và bám sát mục tiêu dự án." },
+    { "icon": "TN", "title": "Trách nhiệm", "desc": "Theo sát từng giai đoạn triển khai, chủ động xử lý vướng mắc phát sinh." },
+    { "icon": "MB", "title": "Minh bạch", "desc": "Thông tin, quy trình và chi phí được trao đổi rõ ràng với khách hàng." },
+    { "icon": "HQ", "title": "Hiệu quả", "desc": "Ưu tiên giải pháp khả thi, tối ưu thời gian và nguồn lực triển khai." },
+    { "icon": "DH", "title": "Đồng hành", "desc": "Hỗ trợ khách hàng từ chuẩn bị hồ sơ đến giải trình, bàn giao và cập nhật." }
+  ],
+  "workflow": [
+    { "icon": "01", "title": "Tiếp nhận thông tin", "desc": "Ghi nhận nhu cầu, mục tiêu dự án và tình trạng hồ sơ hiện có." },
+    { "icon": "02", "title": "Tư vấn sơ bộ và báo giá", "desc": "Xác định phạm vi, phương án tiếp cận, tiến độ và chi phí dự kiến." },
+    { "icon": "03", "title": "Khảo sát, thu thập hồ sơ", "desc": "Đánh giá pháp lý, kỹ thuật, hiện trạng và dữ liệu liên quan." },
+    { "icon": "04", "title": "Phân tích và đề xuất giải pháp", "desc": "Xây dựng phương án phù hợp điều kiện triển khai thực tế." },
+    { "icon": "05", "title": "Thực hiện hồ sơ hoặc dịch vụ", "desc": "Triển khai nội dung theo hợp đồng và bộ tiêu chuẩn đã thống nhất." },
+    { "icon": "06", "title": "Làm việc với cơ quan liên quan", "desc": "Hỗ trợ giải trình, chỉnh sửa, hoàn thiện hồ sơ khi cần." },
+    { "icon": "07", "title": "Bàn giao, theo dõi và đồng hành", "desc": "Bàn giao kết quả, hướng dẫn lưu trữ và hỗ trợ sau bàn giao." }
+  ],
+  "capabilities": [
+    { "icon": "ND", "title": "Đội ngũ chuyên môn đa ngành", "desc": "Kết hợp quản lý điều hành, đầu tư, thiết kế kỹ thuật, môi trường, xây dựng và đấu thầu." },
+    { "icon": "PL", "title": "Am hiểu pháp lý", "desc": "Theo dõi yêu cầu pháp lý đầu tư, xây dựng, môi trường và đấu thầu để hạn chế rủi ro hồ sơ." },
+    { "icon": "QT", "title": "Quy trình làm việc chuyên nghiệp", "desc": "Tổ chức công việc theo từng bước rõ ràng, có đầu mối phối hợp và mốc bàn giao." },
+    { "icon": "HS", "title": "Hồ sơ pháp lý và chứng chỉ năng lực", "desc": "Chuẩn hóa hồ sơ, chứng chỉ và tài liệu phục vụ triển khai dự án." },
+    { "icon": "KS", "title": "Dự toán, tiến độ và kiểm soát chất lượng", "desc": "Theo dõi phạm vi, chi phí, tiến độ và tiêu chuẩn chất lượng trong quá trình thực hiện." },
+    { "icon": "DH", "title": "Đồng hành giải trình", "desc": "Hỗ trợ làm việc với cơ quan, đối tác và các bên liên quan để hoàn thiện hồ sơ." }
+  ],
+  "gallery": [
+    { "title": "Văn phòng Á Đông", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-company-info.png" },
+    { "title": "Đội ngũ nhân sự", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-team.png" },
+    { "title": "Hồ sơ pháp lý", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-legal.png" },
+    { "title": "Chứng chỉ năng lực", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-legal.png" },
+    { "title": "Dự án và công trình", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-construction.png" },
+    { "title": "Hoạt động khảo sát/thẩm định", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-design.png" }
   ],
   "leaders": [
-    { "name": "Dương Hùng Biện", "role": "Chủ tịch HĐQT", "specialty": "Kiến trúc sư, Cử nhân Luật Kinh tế" },
-    { "name": "Dương Đình Nam", "role": "Tổng Giám đốc", "specialty": "Kỹ sư điện" },
-    { "name": "Dương Công Cường", "role": "Giám đốc", "specialty": "Kỹ sư trắc địa, bản đồ" },
-    { "name": "Dương Đoàn Kết", "role": "Giám đốc", "specialty": "Kiến trúc sư" }
+    { "name": "Dương Hùng Biện", "role": "Chủ tịch HĐQT", "specialty": "Kiến trúc sư, Cử nhân Luật Kinh tế", "experience": "Định hướng chiến lược và phát triển doanh nghiệp." },
+    { "name": "Dương Đình Nam", "role": "Tổng Giám đốc", "specialty": "Kỹ sư điện", "experience": "Điều hành hoạt động chung và phối hợp triển khai hồ sơ trọng điểm." },
+    { "name": "Dương Công Cường", "role": "Giám đốc", "specialty": "Kỹ sư trắc địa, bản đồ", "experience": "Phụ trách khảo sát, đo đạc, trắc địa và dữ liệu hiện trạng." },
+    { "name": "Dương Đoàn Kết", "role": "Giám đốc", "specialty": "Kiến trúc sư", "experience": "Phụ trách thiết kế kiến trúc và phương án thiết kế." }
+  ],
+  "testimonials": [
+    { "customer": "Đang cập nhật", "content": "Đang cập nhật phản hồi khách hàng", "field": "Đang cập nhật" },
+    { "customer": "Đang cập nhật", "content": "Đang cập nhật phản hồi khách hàng", "field": "Đang cập nhật" },
+    { "customer": "Đang cập nhật", "content": "Đang cập nhật phản hồi khách hàng", "field": "Đang cập nhật" }
+  ],
+  "news": [
+    { "date": "Đang cập nhật", "title": "Cập nhật quy định pháp lý về đầu tư, xây dựng và môi trường", "desc": "Tổng hợp các điểm cần lưu ý khi chuẩn bị hồ sơ pháp lý cho dự án." },
+    { "date": "Đang cập nhật", "title": "Giải pháp tư vấn đồng bộ cho nhà đầu tư", "desc": "Cách tổ chức đầu mối tư vấn để kiểm soát tiến độ, chi phí và rủi ro hồ sơ." },
+    { "date": "Đang cập nhật", "title": "Vai trò của hồ sơ pháp lý trong triển khai dự án", "desc": "Những nhóm hồ sơ cần chuẩn bị trước khi dự án đi vào giai đoạn triển khai." }
+  ],
+  "subsidiaries": [
+    {
+      "name": "Công ty TNHH Giải pháp Môi trường Xanh Việt",
+      "englishName": "Green Viet Environmental Solutions Co., Ltd.",
+      "shortName": "GVES Co., Ltd.",
+      "role": "Công ty thành viên chuyên trách lĩnh vực tư vấn môi trường, hồ sơ pháp lý môi trường, quan trắc môi trường và giải pháp xử lý chất thải trong hệ sinh thái Á Đông Group."
+    }
   ],
   "commitments": [
     "Thực hiện công việc đúng phạm vi, tiến độ và yêu cầu đã thống nhất",

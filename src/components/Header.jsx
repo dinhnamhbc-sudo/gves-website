@@ -1,18 +1,16 @@
-import { useState } from "react";
-import { company } from "../data/siteData.js";
-
-const navItems = [
-  { id: "solutions", label: "Dịch vụ" },
-  { id: "catalog", label: "Vì sao chọn" },
-  { id: "documents", label: "Hồ sơ pháp lý" },
-  { id: "articles", label: "Tầm nhìn" },
-  { id: "projects", label: "Dự án" },
-  { id: "implementation", label: "Quy trình" },
-  { id: "contact", label: "Liên hệ" },
-];
+import { useEffect, useState } from "react";
+import { company, navigation } from "../data/siteData.js";
 
 export default function Header({ activePage, onNavigate }) {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    onScroll();
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const handleNavigate = (page) => {
     onNavigate(page);
@@ -20,18 +18,25 @@ export default function Header({ activePage, onNavigate }) {
   };
 
   return (
-    <header className="site-header">
+    <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
+      <div className="top-bar">
+        <div className="top-bar-inner">
+          <span>{company.name.toUpperCase()}</span>
+          <a href={`tel:${company.phone.replaceAll(".", "")}`}>Hotline: {company.phone}</a>
+          <a href={`mailto:${company.email}`}>{company.email}</a>
+        </div>
+      </div>
       <div className="header-inner">
         <button className="brand" type="button" onClick={() => handleNavigate("home")}>
           <span className="brand-mark">AD</span>
           <span>
-            <span className="brand-name">{company.shortName}</span>
+            <span className="brand-name">{company.brandName}</span>
             <span className="brand-line">{company.tagline}</span>
           </span>
         </button>
 
         <nav className={`main-nav ${open ? "is-open" : ""}`} aria-label="Điều hướng chính">
-          {navItems.map((item) => (
+          {navigation.map((item) => (
             <button
               className={activePage === item.id ? "active" : ""}
               key={item.id}
@@ -43,9 +48,14 @@ export default function Header({ activePage, onNavigate }) {
           ))}
         </nav>
 
-        <button className="header-action" type="button" onClick={() => handleNavigate("contact")}>
-          Nhận tư vấn
-        </button>
+        <div className="header-actions">
+          <button className="header-action ghost" type="button" onClick={() => handleNavigate("capabilities")}>
+            Hồ sơ năng lực
+          </button>
+          <button className="header-action" type="button" onClick={() => handleNavigate("contact")}>
+            Liên hệ tư vấn
+          </button>
+        </div>
         <button
           className="nav-toggle"
           type="button"

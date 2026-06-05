@@ -1,24 +1,24 @@
 import { useEffect, useMemo, useState } from "react";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+import CapabilitiesPage from "./pages/CapabilitiesPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+import FieldsPage from "./pages/FieldsPage.jsx";
 import Home from "./pages/Home.jsx";
-import Solutions from "./pages/Solutions.jsx";
-import Catalog from "./pages/Catalog.jsx";
-import Documents from "./pages/Documents.jsx";
-import Articles from "./pages/Articles.jsx";
-import Projects from "./pages/Projects.jsx";
-import Implementation from "./pages/Implementation.jsx";
-import Contact from "./pages/Contact.jsx";
+import NewsPage from "./pages/NewsPage.jsx";
+import ProjectsPage from "./pages/ProjectsPage.jsx";
+import SubsidiariesPage from "./pages/SubsidiariesPage.jsx";
 
 const pages = {
   home: Home,
-  solutions: Solutions,
-  catalog: Catalog,
-  documents: Documents,
-  articles: Articles,
-  projects: Projects,
-  implementation: Implementation,
-  contact: Contact,
+  about: AboutPage,
+  fields: FieldsPage,
+  projects: ProjectsPage,
+  capabilities: CapabilitiesPage,
+  subsidiaries: SubsidiariesPage,
+  news: NewsPage,
+  contact: ContactPage,
 };
 
 function getInitialPage() {

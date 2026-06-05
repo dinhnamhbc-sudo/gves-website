@@ -1,14 +1,20 @@
 import content from "./siteContent.json";
 
 export const {
+  seo,
   company,
-  solutions,
-  productCategories,
-  documentServices,
-  articles,
+  navigation,
+  heroSlides,
+  businessFields,
   projects,
-  implementationSteps,
+  stats,
+  coreValues,
+  workflow,
   capabilities,
+  gallery,
   leaders,
+  testimonials,
+  news,
+  subsidiaries,
   commitments,
 } = content;

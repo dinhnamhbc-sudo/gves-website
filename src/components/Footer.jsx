@@ -1,28 +1,37 @@
-import { company } from "../data/siteData.js";
+import { businessFields, company, navigation, subsidiaries } from "../data/siteData.js";
 
 export default function Footer({ onNavigate }) {
   return (
     <footer className="site-footer">
       <div className="footer-inner">
-        <div>
-          <h2>{company.name}</h2>
-          <p>{company.field}</p>
+        <div className="footer-brand">
+          <h2>{company.brandName}</h2>
+          <p>{company.name}</p>
+          <p>{company.heroText}</p>
           <p className="footer-tagline">{company.tagline}</p>
         </div>
         <div className="footer-links">
-          <h3>Hạng mục</h3>
-          <button type="button" onClick={() => onNavigate("solutions")}>Dịch vụ</button>
-          <button type="button" onClick={() => onNavigate("documents")}>Hồ sơ pháp lý</button>
-          <button type="button" onClick={() => onNavigate("projects")}>Dự án</button>
-          <button type="button" onClick={() => onNavigate("implementation")}>Quy trình</button>
+          <h3>Menu nhanh</h3>
+          {navigation.map((item) => (
+            <button key={item.id} type="button" onClick={() => onNavigate(item.id)}>{item.label}</button>
+          ))}
+        </div>
+        <div className="footer-links">
+          <h3>Lĩnh vực hoạt động</h3>
+          {businessFields.map((field) => (
+            <button key={field.id} type="button" onClick={() => onNavigate("fields")}>{field.title}</button>
+          ))}
         </div>
         <div className="footer-contact">
-          <h3>Liên hệ</h3>
-          <span>{company.phone}</span>
-          <span>{company.email}</span>
-          <span>{company.address}</span>
+          <h3>Thông tin liên hệ</h3>
+          <span>Địa chỉ: {company.address}</span>
+          <span>Điện thoại: {company.phone}</span>
+          <span>Email: {company.email}</span>
+          <span>Website: {company.website}</span>
+          <strong>Công ty thành viên</strong>
+          <span>{subsidiaries[0].shortName}</span>
         </div>
-        <p className="copyright">© 2026 {company.shortName}. Company profile website.</p>
+        <p className="copyright">© 2026 {company.brandName}. All rights reserved.</p>
       </div>
     </footer>
   );
