@@ -1,4 +1,5 @@
 import SectionTitle from "./SectionTitle.jsx";
+import SmartImage from "./common/SmartImage.jsx";
 import { gallery } from "../data/siteData.js";
 
 export default function Gallery() {
@@ -10,7 +11,7 @@ export default function Gallery() {
       <div className="gallery-grid">
         {gallery.map((item) => (
           <article className="gallery-item" key={item.title}>
-            <img src={item.image} alt={item.title} />
+            <SmartImage src={item.image} alt={item.title} />
             <div>
               <h3>{item.title}</h3>
               <p>{item.note}</p>

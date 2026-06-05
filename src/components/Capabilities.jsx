@@ -1,5 +1,6 @@
 import SectionTitle from "./SectionTitle.jsx";
-import { capabilities } from "../data/siteData.js";
+import SmartImage from "./common/SmartImage.jsx";
+import { capabilities, stats } from "../data/siteData.js";
 
 export default function Capabilities() {
   return (
@@ -8,7 +9,15 @@ export default function Capabilities() {
         <SectionTitle eyebrow="Năng lực" title="Năng lực tích hợp cho dự án đa lĩnh vực">
           Á Đông Group kết hợp năng lực tư vấn, pháp lý, kỹ thuật, môi trường, xây dựng, đấu thầu và quản lý dự án trong một hệ sinh thái dịch vụ thống nhất.
         </SectionTitle>
-        <img src="/assets/adong-team.png" alt="Năng lực nhân sự Á Đông Group" />
+        <SmartImage src="/images/adong/capabilities/project-management.jpg" alt="Năng lực tích hợp Á Đông Group" />
+      </div>
+      <div className="stats-strip">
+        {stats.map((item) => (
+          <div key={item.label}>
+            <strong>{item.value}</strong>
+            <span>{item.label}</span>
+          </div>
+        ))}
       </div>
       <div className="capability-grid">
         {capabilities.map((item) => (

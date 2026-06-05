@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import SmartImage from "./common/SmartImage.jsx";
 import { company, heroSlides } from "../data/siteData.js";
 
 export default function HeroSlider({ onNavigate }) {
@@ -14,11 +15,10 @@ export default function HeroSlider({ onNavigate }) {
   return (
     <section className="hero-slider">
       {heroSlides.map((slide, index) => (
-        <article
-          className={`hero-slide ${index === active ? "is-active" : ""}`}
-          key={slide.title}
-          style={{ backgroundImage: `linear-gradient(90deg, rgba(0, 35, 72, 0.92), rgba(0, 35, 72, 0.58)), url(${slide.image})` }}
-        >
+        <article className={`hero-slide ${index === active ? "is-active" : ""}`} key={slide.title}>
+          <div className="hero-image">
+            <SmartImage src={slide.image} alt={slide.title} />
+          </div>
           <div className="hero-content">
             <p className="eyebrow">{slide.subtitle}</p>
             <h1>{slide.title}</h1>

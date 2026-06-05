@@ -43,19 +43,19 @@
       "title": "Công ty Cổ phần Tập đoàn Á Đông",
       "subtitle": "A DONG GROUP",
       "desc": "Hệ sinh thái dịch vụ tích hợp trong tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, đầu tư xây dựng và tư vấn đấu thầu.",
-      "image": "/assets/adong-cover.png"
+      "image": "/images/adong/hero/hero-consulting.jpg"
     },
     {
       "title": "Đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai",
       "subtitle": "Integrated Project Consulting",
       "desc": "Á Đông Group cung cấp giải pháp đồng bộ từ pháp lý đầu tư, thiết kế kỹ thuật, môi trường, đấu thầu đến triển khai xây dựng và quản lý dự án.",
-      "image": "/assets/adong-capabilities.png"
+      "image": "/images/adong/hero/hero-construction.jpg"
     },
     {
       "title": "Giải pháp tích hợp cho dự án bền vững",
       "subtitle": "Value Creation",
       "desc": "Tối ưu hồ sơ, quy trình, chi phí và tiến độ trong quá trình chuẩn bị, thực hiện và vận hành dự án.",
-      "image": "/assets/adong-process.png"
+      "image": "/images/adong/hero/hero-environment.jpg"
     }
   ],
   "businessFields": [
@@ -66,7 +66,7 @@
       "englishTitle": "Investment Consulting",
       "summary": "Tư vấn ý tưởng đầu tư, định hướng đầu tư, rà soát quy hoạch, pháp lý dự án, lập hồ sơ và hỗ trợ thủ tục đầu tư.",
       "items": ["Tư vấn ý tưởng và định hướng đầu tư", "Rà soát quy hoạch và pháp lý dự án", "Lập hồ sơ đề xuất dự án đầu tư", "Báo cáo nghiên cứu tiền khả thi và khả thi", "Hỗ trợ làm việc với cơ quan nhà nước"],
-      "image": "/assets/adong-investment.png"
+      "image": "/images/adong/services/investment-consulting.jpg"
     },
     {
       "id": "design",
@@ -75,7 +75,7 @@
       "englishTitle": "Design Consulting",
       "summary": "Cung cấp dịch vụ tư vấn thiết kế cho công trình dân dụng, công nghiệp, hạ tầng kỹ thuật và môi trường.",
       "items": ["Khảo sát hiện trạng", "Thiết kế cơ sở", "Thiết kế kỹ thuật", "Thiết kế bản vẽ thi công", "Lập dự toán", "Phối hợp hồ sơ PCCC, môi trường, quy hoạch"],
-      "image": "/assets/adong-design.png"
+      "image": "/images/adong/services/design-consulting.jpg"
     },
     {
       "id": "environment",
@@ -84,7 +84,7 @@
       "englishTitle": "Environmental Consulting",
       "summary": "Tư vấn hồ sơ pháp lý môi trường, đánh giá tác động môi trường, giấy phép môi trường, quan trắc và giải pháp xử lý chất thải.",
       "items": ["Đánh giá tác động môi trường", "Giấy phép môi trường", "Đăng ký môi trường", "Quan trắc môi trường", "Tư vấn xử lý nước thải, khí thải, chất thải rắn"],
-      "image": "/assets/adong-environment.png"
+      "image": "/images/adong/services/environment-consulting.jpg"
     },
     {
       "id": "construction",
@@ -93,7 +93,7 @@
       "englishTitle": "Construction Investment",
       "summary": "Cung cấp giải pháp đầu tư, thi công xây dựng, quản lý dự án, bảo hành và bảo trì công trình.",
       "items": ["Đầu tư dự án", "Thi công xây dựng", "Quản lý dự án", "Giám sát triển khai", "Bảo hành và bảo trì"],
-      "image": "/assets/adong-construction.png"
+      "image": "/images/adong/services/construction-investment.jpg"
     },
     {
       "id": "bidding",
@@ -102,16 +102,15 @@
       "englishTitle": "Bidding Consulting",
       "summary": "Tư vấn lập hồ sơ mời thầu, đánh giá hồ sơ dự thầu, lựa chọn nhà thầu và quản lý hợp đồng.",
       "items": ["Lập hồ sơ mời thầu", "Đánh giá hồ sơ dự thầu", "Tư vấn lựa chọn nhà thầu", "Quản lý hợp đồng", "Hoàn thiện hồ sơ đấu thầu"],
-      "image": "/assets/adong-bidding.png"
+      "image": "/images/adong/services/bidding-consulting.jpg"
     }
   ],
   "projects": [
-    { "category": "Tư vấn đầu tư", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-investment.png" },
-    { "category": "Tư vấn thiết kế", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-design.png" },
-    { "category": "Tư vấn môi trường", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-environment.png" },
-    { "category": "Đầu tư xây dựng", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-construction.png" },
-    { "category": "Tư vấn đấu thầu", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-bidding.png" },
-    { "category": "Tư vấn môi trường", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/assets/adong-legal.png" }
+    { "category": "Tư vấn đầu tư", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/images/adong/projects/project-investment.jpg" },
+    { "category": "Tư vấn thiết kế", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/images/adong/projects/project-design.jpg" },
+    { "category": "Tư vấn môi trường", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/images/adong/projects/project-environment.jpg" },
+    { "category": "Đầu tư xây dựng", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/images/adong/projects/project-construction.jpg" },
+    { "category": "Tư vấn đấu thầu", "title": "Đang cập nhật", "location": "Đang cập nhật", "scope": "Đang cập nhật", "image": "/images/adong/projects/project-bidding.jpg" }
   ],
   "stats": [
     { "value": "5", "label": "Lĩnh vực hoạt động" },
@@ -144,12 +143,12 @@
     { "icon": "DH", "title": "Đồng hành giải trình", "desc": "Hỗ trợ làm việc với cơ quan, đối tác và các bên liên quan để hoàn thiện hồ sơ." }
   ],
   "gallery": [
-    { "title": "Văn phòng Á Đông", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-company-info.png" },
-    { "title": "Đội ngũ nhân sự", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-team.png" },
-    { "title": "Hồ sơ pháp lý", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-legal.png" },
-    { "title": "Chứng chỉ năng lực", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-legal.png" },
-    { "title": "Dự án và công trình", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-construction.png" },
-    { "title": "Hoạt động khảo sát/thẩm định", "note": "Đang cập nhật hình ảnh", "image": "/assets/adong-design.png" }
+    { "title": "Văn phòng Á Đông", "note": "Đang cập nhật hình ảnh", "image": "/images/adong/gallery/office.jpg" },
+    { "title": "Đội ngũ làm việc", "note": "Đang cập nhật hình ảnh", "image": "/images/adong/gallery/team-working.jpg" },
+    { "title": "Khảo sát hiện trường", "note": "Đang cập nhật hình ảnh", "image": "/images/adong/gallery/site-survey.jpg" },
+    { "title": "Hồ sơ pháp lý", "note": "Đang cập nhật hình ảnh", "image": "/images/adong/gallery/legal-documents.jpg" },
+    { "title": "Quan trắc môi trường", "note": "Đang cập nhật hình ảnh", "image": "/images/adong/gallery/environment-sampling.jpg" },
+    { "title": "Công trình/dự án", "note": "Đang cập nhật hình ảnh", "image": "/images/adong/gallery/construction-site.jpg" }
   ],
   "leaders": [
     { "name": "Dương Hùng Biện", "role": "Chủ tịch HĐQT", "specialty": "Kiến trúc sư, Cử nhân Luật Kinh tế", "experience": "Định hướng chiến lược và phát triển doanh nghiệp." },

@@ -1,4 +1,5 @@
 import SectionTitle from "./SectionTitle.jsx";
+import SmartImage from "./common/SmartImage.jsx";
 import { businessFields, company } from "../data/siteData.js";
 
 export default function Services({ onNavigate, compact = false }) {
@@ -11,7 +12,7 @@ export default function Services({ onNavigate, compact = false }) {
         {businessFields.map((field, index) => (
           <article className="service-block" key={field.id}>
             <div className="service-image">
-              <img src={field.image} alt={field.title} />
+              <SmartImage src={field.image} alt={field.title} />
               <span>{field.icon}</span>
             </div>
             <div className="service-body">

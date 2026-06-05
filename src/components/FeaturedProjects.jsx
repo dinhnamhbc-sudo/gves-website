@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import SectionTitle from "./SectionTitle.jsx";
+import SmartImage from "./common/SmartImage.jsx";
 import { businessFields, projects } from "../data/siteData.js";
 
 const allCategory = "Tất cả";
@@ -32,7 +33,7 @@ export default function FeaturedProjects({ onNavigate }) {
       <div className="project-grid">
         {visibleProjects.map((project, index) => (
           <article className="project-card" key={`${project.category}-${index}`}>
-            <img src={project.image} alt={`${project.category} - ${project.title}`} />
+            <SmartImage src={project.image} alt={`${project.category} - ${project.title}`} />
             <div className="project-overlay">
               <p>{project.category}</p>
               <h3>{project.title}</h3>

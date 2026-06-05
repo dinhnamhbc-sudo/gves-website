@@ -1,4 +1,5 @@
 import SectionTitle from "./SectionTitle.jsx";
+import SmartImage from "./common/SmartImage.jsx";
 import { leaders } from "../data/siteData.js";
 
 export default function Team() {
@@ -10,7 +11,7 @@ export default function Team() {
       <div className="team-grid">
         {leaders.map((leader) => (
           <article className="team-card" key={leader.name}>
-            <div className="avatar-placeholder">{leader.name.split(" ").slice(-1)[0][0]}</div>
+            <SmartImage src="/images/adong/team/team-placeholder.jpg" alt={leader.name} fallbackClassName="team-photo" />
             <h3>{leader.name}</h3>
             <p>{leader.role}</p>
             <span>{leader.specialty}</span>

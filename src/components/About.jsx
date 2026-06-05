@@ -1,4 +1,5 @@
 import SectionTitle from "./SectionTitle.jsx";
+import SmartImage from "./common/SmartImage.jsx";
 import { company, stats } from "../data/siteData.js";
 
 export default function About() {
@@ -18,9 +19,9 @@ export default function About() {
         </div>
       </div>
       <div className="about-collage">
-        <img className="collage-main" src="/assets/adong-company-info.png" alt="Thông tin Á Đông Group" />
-        <img src="/assets/adong-team.png" alt="Đội ngũ Á Đông Group" />
-        <img src="/assets/adong-values.png" alt="Giá trị Á Đông Group" />
+        <SmartImage className="collage-main" fallbackClassName="collage-main" src="/images/adong/gallery/office.jpg" alt="Văn phòng Á Đông Group" />
+        <SmartImage src="/images/adong/gallery/team-working.jpg" alt="Đội ngũ Á Đông Group" />
+        <SmartImage src="/images/adong/gallery/legal-documents.jpg" alt="Hồ sơ năng lực Á Đông Group" />
       </div>
     </section>
   );
