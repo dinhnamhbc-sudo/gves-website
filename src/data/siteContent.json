@@ -42,18 +42,21 @@
     {
       "title": "Công ty Cổ phần Tập đoàn Á Đông",
       "subtitle": "A DONG GROUP",
+      "slogan": "Kiến tạo giá trị - Đồng hành phát triển",
       "desc": "Hệ sinh thái dịch vụ tích hợp trong tư vấn đầu tư, tư vấn thiết kế, tư vấn môi trường, đầu tư xây dựng và tư vấn đấu thầu.",
       "image": "/images/adong/hero/hero-consulting.jpg"
     },
     {
       "title": "Đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai",
       "subtitle": "Integrated Project Consulting",
+      "slogan": "Tư vấn đồng bộ - Triển khai hiệu quả",
       "desc": "Á Đông Group cung cấp giải pháp đồng bộ từ pháp lý đầu tư, thiết kế kỹ thuật, môi trường, đấu thầu đến triển khai xây dựng và quản lý dự án.",
       "image": "/images/adong/hero/hero-construction.jpg"
     },
     {
       "title": "Giải pháp tích hợp cho dự án bền vững",
       "subtitle": "Value Creation",
+      "slogan": "Tuân thủ pháp lý - Phù hợp thực tiễn",
       "desc": "Tối ưu hồ sơ, quy trình, chi phí và tiến độ trong quá trình chuẩn bị, thực hiện và vận hành dự án.",
       "image": "/images/adong/hero/hero-environment.jpg"
     }
